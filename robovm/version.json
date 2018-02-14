@@ -1,0 +1,54 @@
+{
+  "release": {
+    "version": "2.3.3",
+    "url": "http://robovm.mobidevelop.com/downloads/releases/idea/",
+    "description": "2.3.3 release of OOS MobiVM/RoboVM"
+  },
+  "snapshot": {
+    "version": "2.3.4",
+    "builds": [
+      {
+        "build.timestamp": 201802141000,
+        "url": "http://robovm.mobidevelop.com/downloads/snapshots/idea/",
+        "description": "* Added STDERR flush\n* RoboVM menu moved between [tools] and [vcs]"
+      },
+      {
+        "build.timestamp": 201802101000,
+        "url": "http://robovm.mobidevelop.com/downloads/snapshots/idea/",
+        "description": "old not existing release just to testing"
+      }
+    ]
+  },
+  "platforms": {
+    "toolchain": [
+      {
+        "version": "0.2.0",
+        "description": "xib2nib received massive update",
+        "linux-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/linux-x86_64-0.2.0.tar.gz",
+        "linux-x86": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/linux-x86-0.2.0.tar.gz",
+        "windows-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86_64-0.2.0.zip",
+        "windows-x86": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86-0.2.0.zip"
+      },
+      {
+        "version": "0.1.1",
+        "description": "First version of toolcain for linux/windows that enables iOS development on these platforms",
+        "linux-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/linux-x86_64-0.1.1.tar.gz",
+        "linux-x86": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/linux-x86-0.1.1.tar.gz",
+        "windows-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86_64-0.1.1.zip",
+        "windows-x86": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86-0.1.1.zip"
+      }
+    ],
+    "xcode": [
+      {
+        "version": "0.1.0",
+        "description": "First homemade version of iOS sdk also includes ",
+        "url": "https://goo.gl/1njuUs"
+      },
+      {
+        "version": "0.0.1",
+        "description": "There is no such version entry added only for testing purpose.\nAlso new line",
+        "url": "https://google.com"
+      }
+    ]
+  }
+}
