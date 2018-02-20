@@ -1,14 +1,18 @@
 {
 	"release": {
 		"version": "2.3.3",
-		"idea-url": "http://robovm.mobidevelop.com/downloads/releases/idea/",
-		"description": "2.3.3 release of OOS MobiVM/RoboVM"
+		"description": "2.3.3 release of OOS MobiVM/RoboVM",
+		"url": {
+			"idea": "http://robovm.mobidevelop.com/downloads/releases/idea/"
+		}
 	},
 	"snapshot": {
 		"version": "2.3.4",
-		"build.timestamp": 201802141000,
-		"idea-url": "http://robovm.mobidevelop.com/downloads/snapshots/idea/",
-		"description": "* Added STDERR flush\n* RoboVM menu moved between [tools] and [vcs]"
+		"build.timestamp": 20180228,
+		"description": "* Added STDERR flush\n* RoboVM menu moved between [tools] and [vcs]",
+		"url": {
+			"idea": "http://robovm.mobidevelop.com/downloads/snapshots/idea/"
+		}
 	},
 	"platforms": {
 		"toolchain": [{
