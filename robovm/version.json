@@ -35,7 +35,7 @@
 	],
 	"xcode": {
 		"version": "0.1.0",
-		"description": "First homemade version of iOS sdk also includes ",
+		"description": "* First homemade version of iOS sdk also includes\n* Swift 4.0 libraries are integrated",
 		"url": "https://goo.gl/1njuUs"
 	}
 }
