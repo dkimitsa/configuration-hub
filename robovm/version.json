@@ -14,30 +14,28 @@
 			"idea": "http://robovm.mobidevelop.com/downloads/snapshots/idea/"
 		}
 	},
-	"platforms": {
-		"toolchain": [{
-				"version": "0.2.0",
-				"description": "xib2nib received massive update",
-				"linux-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/linux-x86_64-0.2.0.tar.gz",
-				"linux-x86": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/linux-x86-0.2.0.tar.gz",
-				"windows-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86_64-0.2.0.zip",
-				"windows-x86": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86-0.2.0.zip",
-				"macosxlinux-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86-0.2.0.zip"
-			},
-			{
-				"version": "0.1.1",
-				"description": "First version of toolcain for linux/windows that enables iOS development on these platforms",
-				"linux-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/linux-x86_64-0.1.1.tar.gz",
-				"linux-x86": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/linux-x86-0.1.1.tar.gz",
-				"windows-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86_64-0.1.1.zip",
-				"windows-x86": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86-0.1.1.zip",
-				"macosxlinux-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86-0.1.1.zip"
-			}
-		],
-		"xcode": {
-			"version": "0.1.0",
-			"description": "First homemade version of iOS sdk also includes ",
-			"url": "https://goo.gl/1njuUs"
+	"toolchain": [{
+			"version": "0.2.0",
+			"description": "xib2nib received massive update",
+			"linux-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/linux-x86_64-0.2.0.tar.gz",
+			"linux-x86": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/linux-x86-0.2.0.tar.gz",
+			"windows-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86_64-0.2.0.zip",
+			"windows-x86": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86-0.2.0.zip",
+			"macosxlinux-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86-0.2.0.zip"
+		},
+		{
+			"version": "0.1.1",
+			"description": "First version of toolcain for linux/windows that enables iOS development on these platforms",
+			"linux-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/linux-x86_64-0.1.1.tar.gz",
+			"linux-x86": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/linux-x86-0.1.1.tar.gz",
+			"windows-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86_64-0.1.1.zip",
+			"windows-x86": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86-0.1.1.zip",
+			"macosxlinux-x86_64": "https://github.com/dkimitsa/robovm-toolchain/releases/download/v0.1.1/windows-x86-0.1.1.zip"
 		}
+	],
+	"xcode": {
+		"version": "0.1.0",
+		"description": "First homemade version of iOS sdk also includes ",
+		"url": "https://goo.gl/1njuUs"
 	}
 }
